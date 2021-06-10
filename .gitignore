@@ -1,0 +1,9 @@
+/.vscode
+/__pycache__
+/base_data_response.json
+/links.txt
+/randomize_toDiscord.py
+/secrets.py
+/test.ipynb
+/venv
+/WallhavenStructure.png
