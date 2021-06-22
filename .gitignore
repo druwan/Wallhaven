@@ -1,9 +1,8 @@
 /.vscode
 /__pycache__
-/base_data_response.json
-/links.txt
-/wallhaven_toDiscord.py
-/secrets.py
-/test.ipynb
+base_data_response.json
+links.txt
+secrets.py
+test.ipynb
 /venv
-/WallhavenStructure.png
+WallhavenStructure.png
