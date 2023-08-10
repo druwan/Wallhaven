@@ -9,7 +9,7 @@ const fetchWallpapers = async () => {
   let wallpapers = [];
 
   data.map((wallpaper) => {
-    wallpapers.push(wallpaper);
+    wallpapers.push({ url: wallpaper.path });
   });
 
   fs.writeFile(
