@@ -2,7 +2,7 @@ require('dotenv').config();
 const fs = require('fs');
 
 const fetchWallpapers = async () => {
-  const wallpapersURL = `${process.env.BASE_URL}${process.env.USERNAME}/${process.env.COLLECTION_ID}?apikey=${process.env.API_KEY}`;
+  const wallpapersURL = `${process.env.BASE_URL}${process.env.USER_NAME}/${process.env.COLLECTION_ID}?apikey=${process.env.API_KEY}`;
   const res = await fetch(wallpapersURL);
   const { data } = await res.json();
 
